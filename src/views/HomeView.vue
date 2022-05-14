@@ -12,11 +12,11 @@
 </template>
 
 <script setup>
-import { sharedValueStore} from '@/stores/store'
+import { useSharedValueStore} from '@/stores/store'
 import { ref } from 'vue';
 
 const selectedOption = ref('')
-const aSharedValueStore = sharedValueStore()
+const aSharedValueStore = useSharedValueStore()
 
 const setOptionValue = () => {
   aSharedValueStore.setOption(selectedOption.value)

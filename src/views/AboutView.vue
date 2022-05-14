@@ -5,9 +5,9 @@
 </template>
 
 <script setup>
-import { sharedValueStore} from '@/stores/store'
+import { useSharedValueStore} from '@/stores/store'
 
-const aSharedValueStore = sharedValueStore()
+const aSharedValueStore = useSharedValueStore()
 </script>
 
 <style>

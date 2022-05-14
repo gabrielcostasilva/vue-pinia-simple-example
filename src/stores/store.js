@@ -1,7 +1,6 @@
 import { defineStore } from 'pinia'
 
-export const sharedValueStore = defineStore({
-  id: 'sharedValueStore',
+export const useSharedValueStore = defineStore('sharedValueStore', {
   state: () => ({
     selectedOption: ''
   }),
