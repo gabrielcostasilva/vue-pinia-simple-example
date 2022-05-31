@@ -4,6 +4,8 @@ This project is based on a [Pinia intro](https://www.youtube.com/watch?v=JGC7aAC
 
 Since 20222, [Pinia](https://pinia.vuejs.org) has become [the standard store](https://www.youtube.com/watch?v=2KBHvaAWJOA) for global state management. Thus, replacing [Vuex](https://vuex.vuejs.org) in Vue applications.
 
+Checkout commits in [this project](https://github.com/gabrielcostasilva/vue-blog/tree/pinia-replace-vuex) for better understanding differences between Vuex and Pinia.
+
 ## Project Overview
 
 This project uses the default Vue app created with `npm init vue@latest`. The idea is saving the state set on a _view_ by using Pinia. Then, one can retrieve the same (global) state in another _view_ (`AboutView`). 
